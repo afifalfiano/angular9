@@ -3,17 +3,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { My000058Component } from './my.000058.component';
 import { My000059Component } from './my.000059.component';
-import { My000060Component } from './my.000060.component';
 
 @NgModule({
   declarations: [
+    My000058Component,
     My000059Component,
-    My000060Component,
   ],
   imports: [CommonModule],
   exports: [
-    My000059Component,
+    My000058Component,
   ]
 })
 export class Module000029 { }
