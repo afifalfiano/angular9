@@ -8,8 +8,6 @@ on:
     types: [opened, synchronize, reopened, closed]
     branches:
     - master
-    - staging
-    - development
     
 jobs:
   build_and_deploy_job:
@@ -27,6 +25,7 @@ jobs:
     - name: Build App
       run: |
         npm ci
+        npm i yargs --save
         npm run build
         cp -r dist-bazel/bin/src/prodapp dist
         ls -l dist
