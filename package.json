@@ -31,6 +31,7 @@
     "@angular/language-service": "~9.1.0",
     "@bazel/bazel": "2.1.0",
     "@bazel/bazelisk": "^1.4.0",
+    "@bazel/buildifier": "^3.2.0",
     "@bazel/ibazel": "0.13.1",
     "@bazel/karma": "1.5.0",
     "@bazel/protractor": "1.5.0",
