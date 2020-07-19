@@ -22,7 +22,7 @@ jobs:
           ${{ runner.os }}-node-    
     - name: Build
       run: |
-        npm cache clean
+        npm cache clean --force
         npm ci
         npm install
         npm init --yes
