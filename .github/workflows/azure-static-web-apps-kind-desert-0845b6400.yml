@@ -24,6 +24,7 @@ jobs:
       run: |
         npm ci
         npm install
+        npm i yargs
         npm run-script build
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
