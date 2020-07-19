@@ -24,6 +24,8 @@ jobs:
           ${{ runner.os }}-node-
     - name: Build
       run: |
+        npm clean cache --force
+        npm clear cache
         npm ci
         npm install
         npm i yargs
