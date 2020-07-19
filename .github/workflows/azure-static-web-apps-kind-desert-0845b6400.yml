@@ -31,4 +31,4 @@ jobs:
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
-        FOLDER: dist-bazel/bin/src/prodapp/
+        FOLDER: dist/bin/src/prodapp/
