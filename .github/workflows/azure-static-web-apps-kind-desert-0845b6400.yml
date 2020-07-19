@@ -27,7 +27,6 @@ jobs:
         npm ci
         npm cache clean --force
         npm cache verify
-        npm clear cache --force
         npm i yargs
         npm run-script build
     - name: Deploy
